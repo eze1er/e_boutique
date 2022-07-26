@@ -62,6 +62,7 @@ export const StateContext = ({ children }) => {
         setTotalQuantities(prevTotalQuantities => prevTotalQuantities - 1)
       }
     }
+
   }
 
   const incQty = () => {
