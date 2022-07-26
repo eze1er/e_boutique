@@ -25,7 +25,7 @@ const HeroBanner = ({
           className="hero-banner-image"
         />
       </div>
-      <Link href={`/product/${product}`}>
+      <Link href={`/product/${product.toLowerCase()}`}>
         <button type="button">{buttonText}</button>
       </Link>
       <div className="desc">

@@ -16,6 +16,7 @@ const FooterBanner = ({
     desc,
   },
 }) => {
+  
   return (
     <div className="footer-banner-container">
       <div className="banner-desc">
@@ -29,7 +30,7 @@ const FooterBanner = ({
           <p>{smallText}</p>
           <h3>{midText}</h3>
           <p>{desc}</p>
-          <Link href={`/product/${product}`}>
+          <Link href={`/product/${product.toLowerCase()}`}>
             <button type="button">{buttonText}</button>
           </Link>
         </div>
